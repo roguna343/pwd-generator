@@ -5,7 +5,7 @@ Requirements:
   - Python 3.x
 
 Instructions on how to run this file:
-  1.) Run the script with the command-line arguments: 
+  1.) Run the script with the command-line arguments, <number> and <password length>, respectively.
   "$ python3 pwd-generator.py <number of passwords> <password length>"
     
     - example test:
