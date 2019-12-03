@@ -1,4 +1,5 @@
-# pwd-generator
+# Random Password Generator
+
 A basic password generator using the random, string and sys modules in Python.
 
 Requirements:
