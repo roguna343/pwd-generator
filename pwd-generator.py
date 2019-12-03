@@ -8,9 +8,11 @@ chars = string.ascii_letters + string.digits + "!@#$%&*?"
 number = int(sys.argv[1])
 passlen = int(sys.argv[2])
 
-def generate():
-    pwd = "".join(random.sample(chars, passlen))
-    yield pwd
+def generate_pwd():
+    password = "".join(random.sample(chars, passlen))
+    yield password
+
+print(f"Printing {number} password(s) of length {passlen}:")
 
 for i in range(number):
-    print(generate().__next__())
+    print(generate_pwd().__next__())
