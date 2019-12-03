@@ -7,8 +7,7 @@ Requirements:
 Instructions on how to run this file:
 
 1.) Download the file.
-2.) Run the script with the command-line arguments:
-    $ python3 pwd-generator.py <number of passwords> <password length>
+2.) Run the script with the command-line arguments: $ python3 pwd-generator.py <number of passwords> <password length>
     
     - example test:
     $ python3 pwd-generator.py 5 8
