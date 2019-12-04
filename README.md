@@ -1,6 +1,6 @@
 # Random Password Generator
 
-A basic password generator using the random, string and sys modules in Python.
+A basic password generator using the secrets, string and sys modules in Python.
 
 Requirements:
   - Python 3.x
